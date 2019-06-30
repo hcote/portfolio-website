@@ -3,11 +3,12 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>HC Personal Website</title>
+  <title>Hunter Cote</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">  
   <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
   <script src="app.js"></script>
 </head>
 <body>
@@ -23,52 +24,96 @@
     <section>
       <div id="about">
           <h1>HUNTER <span class="last-name">COTE</span></h1>
-          <p class="address">San Francisco, CA - (401) 714-1831 <span class="email">hcote12@gmail.com</span></p>
-          <p class="bio">An experienced relationship manager turned web developer, who's passionate about learning, solving complex problems, and understanding new technologies.</p>
+          <p class="address">Software Developer &#8226; San Francisco, CA &#8226; (401) 714-1831 &#8226; <span class="email">hcote12@gmail.com</span></p>
+          <p class="desc">I am an experienced relationship manager turned software developer, who's passionate about learning, solving complex problems, and understanding new technologies.
+            <br>
+            <br>
+            My skillset includes <span class="black">Javascript, jQuery, Node.js, Express, MySQL, MongoDB, Java, Maven, Ethereum, Solidity, Web3.js.</span> 
+          </p>
           <div>
-            <a href="https://github.com/hcote" target="_blank"><i class="fab fa-github" style="font-size:54px; color: black; padding-left: 10px; padding-right: 30px;"></i></a>
-            <a href="https://www.linkedin.com/in/huntercote/" target="_blank"><i class="fab fa-linkedin" style="font-size:54px; color: black"></i></a>
+            <a href="https://github.com/hcote" target="_blank"><i class="fab fa-github" style="font-size: 3em; color: black; padding-left: 10px; padding-right: 30px;"></i></a>
+            <a href="https://www.linkedin.com/in/huntercote/" target="_blank"><i class="fab fa-linkedin" style="font-size: 3em; color: black"></i></a>
           </div>      
       </div>
+      <i class="fa fa-angle-double-down"></i>
     </section>
         <div id="portfolio">
-            <h1>PORTFOLIO</h1>
+            <h1 class="portfolio-header">PORTFOLIO</h1>
             <p class="title"><a target="_blank" href="https://loyyal.com">Loyyal</a>  <span class="job-desc">Designed and built.</span> </p>
-            <p class="job-desc margin-top">Technologies: WordPress, JavaScript</p>
+            <p class="desc margin-top"><a href="https://loyyal.com">Website</a></p>
+            <p class="desc margin-top">Technologies: WordPress, Javascript</p>
             <img src="loyyal.png" alt="" class="proj-img">
             <p class="title"><a target="_blank" href="https://loyyal.com/building-a-microservice">Microservice</a> <span class="job-desc">Built a caching middle layer for Loyyal's API.</span> </p>
-            <p class="job-desc margin-top">Technologies: Node.js, Redis DB</p>
+            <p class="desc margin-top"><a href="https://loyyal.com/building-a-microservice">Blog Post</a></p>
+            <p class="desc margin-top">Technologies: Node.js, Express, Redis DB</p>
             <img src="microservice-flow.png" alt="" class="proj-img">
             <p class="title"><a target="_blank" href="">East Bay Exteriors</a> <span class="job-desc">Designed and built.</span> </p>
-            <p class="job-desc margin-top">Technologies: Squarespace</p>
+            <p class="desc margin-top"><a href="">Website</a></p>
+            <p class="desc">Technologies: Squarespace</p>
             <img src="ebe.png" alt="" class="proj-img ebe">
             <p class="title"><a target="_blank" href="https://chrome.google.com/webstore/detail/element-highlighter/oilpcbohncpdjdadofhbldfmojneciop">Markit</a> <span class="job-desc">A browser extension allowing users to highlight and take notes on any page.</span> </p>
-            <p class="job-desc margin-top"><a href="https://github.com/hcote/highlighter-chrome-extension">Github</a></p>
-            <p class="job-desc">Technologies: JavaScript, Google API</p>
+            <p class="desc margin-top">
+              <a href="https://github.com/hcote/highlighter-chrome-extension">Github</a> | 
+              <a href="https://chrome.google.com/webstore/detail/element-highlighter/oilpcbohncpdjdadofhbldfmojneciop">Chrome Store</a>
+            </p>
+            <p class="desc">Technologies: Javascript, Google API</p>
             <img src="markit.png" alt="" class="proj-img">
             <p class="title"><a target="_blank" href="">Quote of the day</a> <span class="job-desc">Wake up every morning to a motivational text.</span></p>
-            <p class="job-desc margin-top"><a href="https://github.com/hcote/Quote-Of-The-Day">Github</a></p>
-            <p class="job-desc">Technologies: Java, Maven, Heroku, Twilio</p>
+            <p class="desc margin-top"><a href="https://github.com/hcote/Quote-Of-The-Day">Github</a></p>
+            <p class="desc">Technologies: Java, Maven, Heroku, Twilio</p>
             <img src="qod.PNG" alt="" class="proj-img qod">
             <p class="title"><a target="_blank" href="https://crypto-bull.herokuapp.com">Cryptobull</a> <span class="job-desc">Watch the cryptocurrency market. Track the performance of your investments.</span></p>  
-            <p class="job-desc margin-top"><a href="https://github.com/hcote/Node.js-Cryptocurrency-Tracker">Github</a></p>
-            <p class="job-desc">Technologies: Node.js, Express, MongoDB</p>
+            <p class="desc margin-top">
+              <a href="https://github.com/hcote/Node.js-Cryptocurrency-Tracker">Github</a> | 
+              <a href="https://crypto-bull.herokuapp.com">Website</a>
+            </p>
+            <p class="desc">Technologies: Node.js, Express, MongoDB</p>
             <img src="cb.png" alt="" class="proj-img">    
         </div>
-      <section>
-        <div id="experience">
+      <section id="experience">
+        <div>
             <h1>EXPERIENCE</h1>
             <p class="title">Contract Web Developer<span class="dates">June - July 2019<span></span></p>
             <p class="company-name">East Bay Exteriors</p>
-            <p class="job-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam explicabo provident consequuntur esse neque aliquid amet, quaerat quia eius debitis et labore perspiciatis ipsum tenetur? Est cumque at nemo voluptate.</p>
+            <ul class="desc">
+              <li>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam explicabo provident consequuntur esse neque aliquid amet, quaerat quia eius debitis et labore perspiciatis ipsum tenetur? Est cumque at nemo voluptate.
+              </li>
+            </ul>
             <hr>
             <p class="title">Contract Web Developer<span class="dates">June - July 2018<span></span></p>
             <p class="company-name">Loyyal</p>
-            <p class="job-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam explicabo provident consequuntur esse neque aliquid amet, quaerat quia eius debitis et labore perspiciatis ipsum tenetur? Est cumque at nemo voluptate.</p>
+            <ul class="desc">
+              <li>
+                  Designed​ ​and built loyyal.com to capture customer leads and better educate potential clients 
+                  about their services by following web development best-practices, such as responsiveness, speed, ease of use and an engaging design. 
+              </li>
+              <br>
+              <li>
+                  Created​ ​a caching layer with microservice architecture between Loyyal’s API endpoints and a frontend dashboard to reduce latency by leveraging node.js, redis, and API pagination. 
+              </li>
+            </ul>
             <hr>
             <p class="title">Category Associate II<span class="dates">July 2015 - Nov 2017<span></span></p>
             <p class="company-name">Wayfair</p>
-            <p class="job-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam explicabo provident consequuntur esse neque aliquid amet, quaerat quia eius debitis et labore perspiciatis ipsum tenetur? Est cumque at nemo voluptate.</p>      
+            <ul class="desc">
+              <li>
+                  Managed and advised a 60-supplier portfolio generating $150 million in annual gross revenue
+                  growing at 50% YoY.
+              </li>
+              <br>
+              <li>
+                  Negotiated with suppliers partnership agreements, wholesale pricing, promotional discounts, operational improvements, warehouse fulfillment agreements, product additions, packaging updates (to lower damage rates) and updated imagery.
+              </li>
+              <br>
+              <li>
+                  Led​ ​quarterly meetings with supplier executives to pitch individualized data-driven growth strategies. Analyzed performance and adjusted strategy accordingly.
+              </li>
+              <br>
+              <li>
+                  Managed​ ​a summer intern and coached on how to analyze product classes and develop actionable improvement goals. Taught professionalism and effective communication strategies when interacting with suppliers.
+              </li>
+            </ul>      
         </div>
       </section>
     <section>
