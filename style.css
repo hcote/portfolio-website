@@ -12,29 +12,28 @@ html, body {
 }
 
 .job-desc {
-  font-size: .8em;
+  font-size: 16px;
   font-weight: 400;
   color: #abaeb5;
-  padding-right: 12em;
 }
 
 .desc {
-  font-size: 1em;
+  font-size: 16px;
   font-weight: 400;
   color: #abaeb5;
-  padding-right: 12em;
 }
 
 hr {
-  margin: 1.5em 10em 1.5em 0;;
+  margin: 30px 20px 0 10px;
 }
 
 h1 {
-  font-size: 2.8em;
+  font-size: 26px;
+  margin: 35px 0;
 }
 
 .portfolio-header {
-  margin-bottom: 1em;
+  margin-bottom: 10px;
 }
 
 .dates {
@@ -60,27 +59,27 @@ h1 {
 
 .side-panel {
   color: #abaeb5;
-  font-size: 1.35em;
+  font-size: 18px;
 }
 
 .address, .company-name {
   text-transform: uppercase;
   color: #abaeb5;
-  font-size: 1.3em;
+  font-size: 18px;
 }
 
 .title {
   text-transform: uppercase;
-  font-size: 1.5em;
+  font-size: 22px;
 }
 
 .bio {
   color: #abaeb5;
-  font-size: 1.1em;
+  font-size: 16px;
 }
 
 .company-name {
-  margin-top: -.5em;
+  margin-top: -10px;
 }
 
 .pro-pic {
@@ -96,7 +95,7 @@ h1 {
 }
 
 #about-bar {
-  margin-top: 3.5em;
+  margin-top: 40px;
 }
 
 .scrollable {
@@ -109,7 +108,7 @@ section {
 }
 
 #education {
-  height: 870px;
+  height: 885px;
 }
 
 #about {
@@ -117,25 +116,25 @@ section {
 }
 
 #experience > h1, #education > h1 {
-  margin-bottom: 2em;
+  margin-bottom: 20px;
 }
 
 #experience > h1 {
-  margin-top: 2em;
+  margin-top: 20px;
 }
 
 .proj-img {
-  width: 25em;
-  margin-bottom: 2em;
+  width: 400px;
+  margin-bottom: 30px;
 }
 
 .ebe {
-  height: 26em;
+  height: 250px;
   overflow: hidden;
 }
 
 .qod {
-  width: 20em;
+  width: 400px;
 }
 
 a {
@@ -152,19 +151,19 @@ a:hover {
 }
 
 #about > h1 {
-  font-size: 4em;
+  font-size: 60px;
   margin-bottom: -10px;
 }
 
 .scroll {
   color: white;
-  font-size: 1.35em;
+  font-size: 18px;
 }
 
 .dates {
   font-size: 16px;
   text-transform: capitalize;
-  padding-right: 4em;
+  padding-right: 40px;
 }
 
 .fa-angle-double-down {

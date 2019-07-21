@@ -20,19 +20,19 @@ window.addEventListener('scroll', () => {
     about.classList.remove("scroll");
     about.classList.add("side-panel");
   }
-  if (window.pageYOffset > 850 && window.pageYOffset <= 3800) {
+  if (window.pageYOffset > 850 && window.pageYOffset <= 3900) {
     port.className = 'scroll';
   } else {
     port.classList.remove("scroll");
     port.classList.add("side-panel");
   }
-  if (window.pageYOffset > 3800 && window.pageYOffset <= 4810) {
+  if (window.pageYOffset > 3900 && window.pageYOffset <= 5000) {
     exp.className = 'scroll';
   } else {
     exp.classList.remove("scroll");
     exp.classList.add("side-panel");
   }
-  if (window.pageYOffset > 4810) {
+  if (window.pageYOffset > 5000) {
     edu.className = 'scroll';
   } else {
     edu.classList.remove("scroll");
